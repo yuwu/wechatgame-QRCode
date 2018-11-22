@@ -1,6 +1,6 @@
 # wechatgame-QRCode
 
-1.1微信子域生成二维码
+1.1 微信子域生成二维码
 ```javascript
 var QRCode = require('qrcode');
 
@@ -18,7 +18,7 @@ var qrcode = new QRCode(ctx, {
 ```
 
 
-1.2微信主域显示子域二维码
+1.2 微信主域显示子域二维码
 ```javascript
 var canvas = wx.createCanvas();
 var ctx = canvas.getContext("2d");
@@ -33,7 +33,7 @@ ctx.drawImage(sharedCanvas, 80, 100);
 ```
 
 
-2.2微信主域生成二维码并显示二维码
+2 微信主域生成二维码并显示二维码
 ```javascript
 var QRCode = require('qrcode');
 
