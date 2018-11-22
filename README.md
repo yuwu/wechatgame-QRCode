@@ -25,7 +25,6 @@ var ctx = canvas.getContext("2d");
 
 var openDataContext = wx.getOpenDataContext();
 var shareCanvas = openDataContext.canvas;
-var shareCtx = shareCanvas.getContext("2d");
 
 ctx.fillStyle = "white";
 ctx.fillRect(0, 0, 1000, 1000);
