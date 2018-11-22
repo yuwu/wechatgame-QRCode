@@ -15,7 +15,6 @@ var qrcode = new QRCode(ctx, {
   colorLight: "#ffffff",
   correctLevel: QRCode.CorrectLevel.H
 });
-
 ```
 
 
@@ -31,9 +30,7 @@ var shareCtx = shareCanvas.getContext("2d");
 ctx.fillStyle = "white";
 ctx.fillRect(0, 0, 1000, 1000);
 ctx.drawImage(sharedCanvas, 80, 100);
-
-``
-
+```
 
 
 2.2微信主域生成二维码，显示二维码
@@ -52,5 +49,8 @@ var qrcode = new QRCode(ctx, {
   colorLight: "#ffffff",
   correctLevel: QRCode.CorrectLevel.H
 });
-
 ```
+
+![image](https://github.com/yuwu/wechatgame-QRCode/blob/master/code.png)
+
+
