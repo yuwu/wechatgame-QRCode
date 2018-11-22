@@ -18,7 +18,7 @@ var qrcode = new QRCode(ctx, {
 ```
 
 
-1.2微信主域显示二维码
+1.2微信主域显示子域二维码
 ```javascript
 var canvas = wx.createCanvas();
 var ctx = canvas.getContext("2d");
@@ -33,7 +33,7 @@ ctx.drawImage(sharedCanvas, 80, 100);
 ```
 
 
-2.2微信主域生成二维码，显示二维码
+2.2微信主域生成二维码并显示二维码
 ```javascript
 var QRCode = require('qrcode');
 
@@ -52,5 +52,11 @@ var qrcode = new QRCode(ctx, {
 ```
 
 ![image](https://github.com/yuwu/wechatgame-QRCode/blob/master/code.png)
+
+
+
+参考
+[weapp-qrcode](https://github.com/tomfriwel/weapp-qrcode)
+[weixin-game](https://developers.weixin.qq.com/minigame/dev/index.html)
 
 
